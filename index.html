@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>扫码添加好友 - 阿云</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    padding: 24px;
+  }
+  .card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px 40px 32px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.10);
+    text-align: center;
+    max-width: 420px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+  }
+  .subtitle {
+    font-size: 14px;
+    color: #868e96;
+    margin-bottom: 28px;
+  }
+  .qr-wrap {
+    border: 1px solid #f1f3f5;
+    border-radius: 16px;
+    padding: 16px;
+    background: #fafbfc;
+  }
+  .qr-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  .tip {
+    margin-top: 24px;
+    font-size: 13px;
+    color: #adb5bd;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>扫码添加微信好友</h1>
+    <p class="subtitle">添加「阿云」为好友</p>
+    <div class="qr-wrap">
+      <img src="image.jpg" alt="微信二维码">
+    </div>
+    <p class="tip">使用微信「扫一扫」或长按识别二维码</p>
+  </div>
+</body>
+</html>
